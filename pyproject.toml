@@ -1,0 +1,23 @@
+# =====================================
+# This file is part of the CodeDev project
+# Author: Ricel Quispe
+# =====================================
+
+# revlogica-data-validation/pyproject.toml
+
+[tool.poetry]
+name = "revlogica-data-validation"
+version = "0.1.0"
+description = "Django frontend for researcher validation in the RevLogica project."
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.13"
+django = "^5.2.5"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.4.1"
+black = "^25.1.0"
+isort = "^6.0.1"
+pre-commit = "^4.3.0"
+

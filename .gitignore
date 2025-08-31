@@ -1,0 +1,5 @@
+# .gitignore
+
+# Ignore common build/cache files
+.env
+__pycache__/
